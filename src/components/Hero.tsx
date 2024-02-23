@@ -7,12 +7,11 @@ const Hero = () => (
     <div
       className={`flex-1 flex-col xl:px-0 ${styles.flexStart} px-6 sm:px-16`}
     >
-      <div className="flex items-center flex-1 py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">20% </span>
-          Discount For <span className="text-white">1 Month </span>
-          Account
+          <span className="text-white">20%</span> Discount For{' '}
+          <span className="text-white">1 Month</span> Account
         </p>
       </div>
       <div className="flex flex-row items-center justify-between w-full">
@@ -24,9 +23,9 @@ const Hero = () => (
           <GetStarted />
         </div>
       </div>
-      <h2 className="flex-1 font-semibold font-poppins ss:text-[68px] ss:leading-[100px] leading-[75px] text-[52px] text-white w-full">
+      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
         Payment Method.
-      </h2>
+      </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
         dolores vero quos totam delectus porro quam a, iste enim. Reprehenderit,
